@@ -1,6 +1,6 @@
 {
   "pages": [
-    "pages/map/map",
+    "pages/index/index",
     "pages/food/food",
     "pages/like/like",
     "pages/eat/eat",
@@ -20,7 +20,7 @@
     "backgroundColor": "#ffffff",
     "list": [
       {
-        "pagePath": "pages/map/map",
+        "pagePath": "pages/index/index",
         "iconPath": "static/image/home_gray.png",
         "selectedIconPath": "static/image/home.png",
         "text": "图鉴"
@@ -45,6 +45,5 @@
       }
     ]
   },
-  "usingComponents": {},
-  "sitemapLocation": "sitemap95.json"
+  "usingComponents": {}
 }

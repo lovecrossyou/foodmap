@@ -1,23 +1,26 @@
 <template>
 	<view class="content">
-		<view class="">
-			<areaMap></areaMap>
+		<mapWrap></mapWrap>
+		<view class="foodStyleWrap">
+			<view class="foodStyleTitle">中华八大菜系</view>
+			<view class="foodStyleList">
+				<block v-for="(item,index,) in foodstylelist" :key="index">
+					<view class="foodStyle">{{item}}</view>
+				</block>
+			</view>
 		</view>
-		<Star></Star>
 	</view>
 </template>
 
 <script>
-	import areaMap from '@/components/area-map.vue'
-	import Star from '@/components/my-star.vue'
+	import mapWrap from '@/components/map/mapWrap.vue';
 	export default {
 		components: {
-			areaMap,
-			Star
+			mapWrap
 		},
 		data() {
 			return {
-				title: 'Hello'
+				foodstylelist:['川菜','徽菜','鲁菜','闽菜','苏菜','湘菜','粤菜','浙菜']
 			}
 		},
 		onLoad() {
@@ -29,30 +32,45 @@
 	}
 </script>
 
-<style>
+<style lang="scss">
 	.content {
-		/* display: flex;
-		flex-direction: column;
-		align-items: center;
-		justify-content: center; */
+		width: 100%;
+		height: 100%;
+		position: fixed;
+		background: #f7f7f7;
+		
+		.foodStyleWrap{
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			width: 100%;
+			margin-top: 10%;
+			
+			.foodStyleTitle{
+				width: 100%;
+				font-size: 40rpx;
+				color: black;
+				text-align: center;
+			}
+			
+			.foodStyleList{
+				width: 90%;
+				text-align: center;
+				margin-top: 5%;
+				
+				.foodStyle{
+					display: inline-block;
+					width: 18%;
+					height: 60rpx;
+					font-size: 30rpx;
+					line-height: 60rpx;
+					color: black;
+					background: white;
+					text-align: center;
+					margin:3% 3%;
+				}
+			}
+		}
 	}
 
-	.logo {
-		height: 200upx;
-		width: 200upx;
-		margin-top: 200upx;
-		margin-left: auto;
-		margin-right: auto;
-		margin-bottom: 50upx;
-	}
-
-	.text-area {
-		display: flex;
-		justify-content: center;
-	}
-
-	.title {
-		font-size: 36upx;
-		color: #8f8f94;
-	}
 </style>
