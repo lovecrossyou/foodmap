@@ -1,14 +1,20 @@
 <template>
 	<view class="content">
-		<image class="logo" src="/static/logo.png"></image>
-		<view class="text-area">
-			<text class="title">{{title}}</text>
+		<view class="">
+			<areaMap></areaMap>
 		</view>
+		<Star></Star>
 	</view>
 </template>
 
 <script>
+	import areaMap from '@/components/area-map.vue'
+	import Star from '@/components/my-star.vue'
 	export default {
+		components: {
+			areaMap,
+			Star
+		},
 		data() {
 			return {
 				title: 'Hello'
@@ -25,10 +31,10 @@
 
 <style>
 	.content {
-		display: flex;
+		/* display: flex;
 		flex-direction: column;
 		align-items: center;
-		justify-content: center;
+		justify-content: center; */
 	}
 
 	.logo {

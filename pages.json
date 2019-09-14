@@ -1,50 +1,58 @@
 {
 	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
 		{
-			"path": "pages/index/index",
+			"path": "pages/map/map",
 			"style": {
-				"navigationBarTitleText": "uni-app"
+				"navigationBarTitleText": "图鉴"
+			}
+		}, {
+			"path": "pages/food/food",
+			"style": {
+				"navigationBarTitleText": "菜谱"
+			}
+		}, {
+			"path": "pages/like/like",
+			"style": {
+				"navigationBarTitleText": "收藏"
+			}
+		}, {
+			"path": "pages/eat/eat",
+			"style": {
+				"navigationBarTitleText": "吃啥"
+			}
+		}, {
+			"path": "pages/word/word",
+			"style": {
+				"navigationBarTitleText": "菜谱"
 			}
 		}
-	    ,{
-            "path" : "pages/food/food",
-            "style" : {}
-        }
-        ,{
-            "path" : "pages/like/like",
-            "style" : {}
-        }
-        ,{
-            "path" : "pages/eat/eat",
-            "style" : {}
-        }
-    ],
+	],
 	"tabBar": {
-	    "color": "#7A7E83",
-	    "selectedColor": "#F6931D",
-	    "borderStyle": "black",
-	    "backgroundColor": "#ffffff",
-	    "list": [{
-	        "pagePath": "pages/index/index",
-	        "iconPath": "static/image/home_gray.png",
-	        "selectedIconPath": "static/image/home.png",
-	        "text": "图鉴"
-	    }, {
-	        "pagePath": "pages/eat/eat",
-	        "iconPath": "static/image/eat_gray.png",
-	        "selectedIconPath": "static/image/eat.png",
-	        "text": "吃啥"
-	    },{
-	        "pagePath": "pages/food/food",
-	        "iconPath": "static/image/food_gray.png",
-	        "selectedIconPath": "static/image/food.png",
-	        "text": "菜谱"
-	    }, {
-	        "pagePath": "pages/like/like",
-	        "iconPath": "static/image/li'ke_gray.png",
-	        "selectedIconPath": "static/image/li'ke.png",
-	        "text": "收藏"
-	    }]
+		"color": "#7A7E83",
+		"selectedColor": "#F6931D",
+		"borderStyle": "black",
+		"backgroundColor": "#ffffff",
+		"list": [{
+			"pagePath": "pages/map/map",
+			"iconPath": "static/image/home_gray.png",
+			"selectedIconPath": "static/image/home.png",
+			"text": "图鉴"
+		}, {
+			"pagePath": "pages/eat/eat",
+			"iconPath": "static/image/eat_gray.png",
+			"selectedIconPath": "static/image/eat.png",
+			"text": "吃啥"
+		}, {
+			"pagePath": "pages/word/word",
+			"iconPath": "static/image/food_gray.png",
+			"selectedIconPath": "static/image/food.png",
+			"text": "菜谱"
+		}, {
+			"pagePath": "pages/like/like",
+			"iconPath": "static/image/li'ke_gray.png",
+			"selectedIconPath": "static/image/li'ke.png",
+			"text": "收藏"
+		}]
 	},
 	"globalStyle": {
 		"navigationBarTextStyle": "black",

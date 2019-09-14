@@ -1,6 +1,6 @@
 <template>
 	<view>
-		
+		eat
 	</view>
 </template>
 
