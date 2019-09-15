@@ -1,7 +1,7 @@
 {
 	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
 		{
-			"path": "pages/index/index",
+			"path": "pages/map/map",
 			"style": {
 				"navigationBarTitleText": "图鉴"
 			}
@@ -33,7 +33,7 @@
 		"borderStyle": "black",
 		"backgroundColor": "#ffffff",
 		"list": [{
-			"pagePath": "pages/index/index",
+			"pagePath": "pages/map/map",
 			"iconPath": "static/image/home_gray.png",
 			"selectedIconPath": "static/image/home.png",
 			"text": "图鉴"
@@ -43,7 +43,7 @@
 			"selectedIconPath": "static/image/eat.png",
 			"text": "吃啥"
 		}, {
-			"pagePath": "pages/word/word",
+			"pagePath": "pages/food/food",
 			"iconPath": "static/image/food_gray.png",
 			"selectedIconPath": "static/image/food.png",
 			"text": "菜谱"

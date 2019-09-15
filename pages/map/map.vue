@@ -9,10 +9,12 @@
 			<canvas canvas-id="canvasMap" id="canvasMap" class="charts" @touchstart="touchMap"></canvas>
 			<!--#endif-->
 		</view>
+		<foodStyle></foodStyle>
 	</view>
 </template>
 
 <script>
+	import foodStyle from '@/components/foodStyle/foodStyle.vue';
 	import uCharts from '@/components/u-charts/u-charts.js';
 	import {
 		isJSON
@@ -22,6 +24,9 @@
 	var canvaMap = null;
 
 	export default {
+		components:{
+			foodStyle
+		},
 		data() {
 			return {
 				cWidth: '',
