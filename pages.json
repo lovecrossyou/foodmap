@@ -20,11 +20,6 @@
 			"style": {
 				"navigationBarTitleText": "吃啥"
 			}
-		}, {
-			"path": "pages/word/word",
-			"style": {
-				"navigationBarTitleText": "菜谱"
-			}
 		}
 	],
 	"tabBar": {

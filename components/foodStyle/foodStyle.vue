@@ -32,6 +32,7 @@
 		width: 100%;
 		height: 100%;
 		position: fixed;
+		padding-top: 5%;
 		background: #f7f7f7;
 		
 		.foodStyleWrap{
@@ -44,13 +45,16 @@
 			
 			.foodStyleTitle{
 				width: 100%;
-				font-size: 40rpx;
-				color: black;
+				font-size:16px;
+				font-family:PingFangHK;
+				font-weight:400;
+				color:rgba(51,51,51,1);
+				line-height:22rpx;
 				text-align: center;
 			}
 			
 			.foodStyleList{
-				width: 90%;
+				width: 98%;
 				text-align: center;
 				margin-top: 5%;
 				
@@ -58,9 +62,11 @@
 					display: inline-block;
 					width: 18%;
 					height: 60rpx;
-					font-size: 30rpx;
-					line-height: 60rpx;
-					color: black;
+					font-size:14rpx;
+					font-family:PingFangHK;
+					font-weight:400;
+					color:rgba(51,51,51,1);
+					line-height:60rpx;
 					background: white;
 					text-align: center;
 					margin:3% 3%;
