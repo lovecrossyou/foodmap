@@ -7598,9 +7598,9 @@ function normalizeComponent (
 
 /***/ }),
 /* 11 */
-/*!**********************************************************************************************!*\
-  !*** /Users/a11/Documents/HBuilderProjects/foodmap/main.js?{"page":"pages%2Findex%2Findex"} ***!
-  \**********************************************************************************************/
+/*!******************************************************************************************!*\
+  !*** /Users/a11/Documents/HBuilderProjects/foodmap/main.js?{"page":"pages%2Fmap%2Fmap"} ***!
+  \******************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -7608,8 +7608,8 @@ function normalizeComponent (
 /* WEBPACK VAR INJECTION */(function(createPage) {__webpack_require__(/*! uni-pages */ 4);
 
 var _vue = _interopRequireDefault(__webpack_require__(/*! vue */ 2));
-var _index = _interopRequireDefault(__webpack_require__(/*! ./pages/index/index.vue */ 12));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}
-createPage(_index.default);
+var _map = _interopRequireDefault(__webpack_require__(/*! ./pages/map/map.vue */ 12));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}
+createPage(_map.default);
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 1)["createPage"]))
 
 /***/ }),
@@ -13156,7 +13156,9 @@ createPage(_food.default);
 /* 25 */,
 /* 26 */,
 /* 27 */,
-/* 28 */
+/* 28 */,
+/* 29 */,
+/* 30 */
 /*!********************************************************************************************!*\
   !*** /Users/a11/Documents/HBuilderProjects/foodmap/main.js?{"page":"pages%2Flike%2Flike"} ***!
   \********************************************************************************************/
@@ -13167,17 +13169,17 @@ createPage(_food.default);
 /* WEBPACK VAR INJECTION */(function(createPage) {__webpack_require__(/*! uni-pages */ 4);
 
 var _vue = _interopRequireDefault(__webpack_require__(/*! vue */ 2));
-var _like = _interopRequireDefault(__webpack_require__(/*! ./pages/like/like.vue */ 29));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}
+var _like = _interopRequireDefault(__webpack_require__(/*! ./pages/like/like.vue */ 31));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}
 createPage(_like.default);
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 1)["createPage"]))
 
 /***/ }),
-/* 29 */,
-/* 30 */,
 /* 31 */,
 /* 32 */,
 /* 33 */,
-/* 34 */
+/* 34 */,
+/* 35 */,
+/* 36 */
 /*!******************************************************************************************!*\
   !*** /Users/a11/Documents/HBuilderProjects/foodmap/main.js?{"page":"pages%2Feat%2Feat"} ***!
   \******************************************************************************************/
@@ -13188,38 +13190,17 @@ createPage(_like.default);
 /* WEBPACK VAR INJECTION */(function(createPage) {__webpack_require__(/*! uni-pages */ 4);
 
 var _vue = _interopRequireDefault(__webpack_require__(/*! vue */ 2));
-var _eat = _interopRequireDefault(__webpack_require__(/*! ./pages/eat/eat.vue */ 35));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}
+var _eat = _interopRequireDefault(__webpack_require__(/*! ./pages/eat/eat.vue */ 37));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}
 createPage(_eat.default);
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 1)["createPage"]))
 
 /***/ }),
-/* 35 */,
-/* 36 */,
 /* 37 */,
 /* 38 */,
 /* 39 */,
-/* 40 */
-/*!********************************************************************************************!*\
-  !*** /Users/a11/Documents/HBuilderProjects/foodmap/main.js?{"page":"pages%2Fword%2Fword"} ***!
-  \********************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-/* WEBPACK VAR INJECTION */(function(createPage) {__webpack_require__(/*! uni-pages */ 4);
-
-var _vue = _interopRequireDefault(__webpack_require__(/*! vue */ 2));
-var _word = _interopRequireDefault(__webpack_require__(/*! ./pages/word/word.vue */ 41));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}
-createPage(_word.default);
-/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 1)["createPage"]))
-
-/***/ }),
+/* 40 */,
 /* 41 */,
-/* 42 */,
-/* 43 */,
-/* 44 */,
-/* 45 */,
-/* 46 */
+/* 42 */
 /*!**********************************************************************!*\
   !*** /Users/a11/Documents/HBuilderProjects/foodmap/common/data.json ***!
   \**********************************************************************/

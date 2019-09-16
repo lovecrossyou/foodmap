@@ -1,10 +1,9 @@
 {
   "pages": [
-    "pages/index/index",
+    "pages/map/map",
     "pages/food/food",
     "pages/like/like",
-    "pages/eat/eat",
-    "pages/word/word"
+    "pages/eat/eat"
   ],
   "subPackages": [],
   "window": {
@@ -20,7 +19,7 @@
     "backgroundColor": "#ffffff",
     "list": [
       {
-        "pagePath": "pages/index/index",
+        "pagePath": "pages/map/map",
         "iconPath": "static/image/home_gray.png",
         "selectedIconPath": "static/image/home.png",
         "text": "图鉴"
@@ -32,7 +31,7 @@
         "text": "吃啥"
       },
       {
-        "pagePath": "pages/word/word",
+        "pagePath": "pages/food/food",
         "iconPath": "static/image/food_gray.png",
         "selectedIconPath": "static/image/food.png",
         "text": "菜谱"
@@ -45,5 +44,6 @@
       }
     ]
   },
-  "usingComponents": {}
+  "usingComponents": {},
+  "sitemapLocation": "sitemap16.json"
 }

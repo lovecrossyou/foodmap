@@ -3,7 +3,7 @@
 		{
 			"path": "pages/map/map",
 			"style": {
-				"navigationBarTitleText": "图鉴"
+				"navigationBarTitleText": "美食地图"
 			}
 		}, {
 			"path": "pages/food/food",
