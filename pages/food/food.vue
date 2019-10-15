@@ -1,7 +1,7 @@
 <template>
 	<view class="foodMain">
 		<block v-for="(item,index) in foodlist" :key="index">
-			<view class="foodWrap">
+			<view class="foodWrap">  
 				<image class="foodPic" :src='item.pic'></image>
 				<view class="foodName">{{item.name}}</view>
 			</view>
@@ -13,7 +13,7 @@
 	export default {
 		data() {
 			return {
-				foodlist:[{name:'手撕羊肉',pic:'../../static/shousiyangrou.png'},
+				foodlist:[{name:'手撕羊肉',pic:'/static/shousiyangrou.png'},
 						  {name:'手撕猪肉',pic:'/static/shousiyangrou.png'},
 						  {name:'手撕牛肉',pic:'/static/shousiyangrou.png'},
 						  {name:'手撕羊肉',pic:'/static/shousiyangrou.png'},
